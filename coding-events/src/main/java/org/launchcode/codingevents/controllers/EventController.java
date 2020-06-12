@@ -12,6 +12,7 @@ import java.util.List;
 @RequestMapping("events")
 public class EventController {
 
+    //lives at /events
     @GetMapping
     public String displayAllEvents(Model model) {
         List<String> events = new ArrayList<>();
